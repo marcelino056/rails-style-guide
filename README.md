@@ -13,14 +13,14 @@ Puede generar un PDF o una copia HTML de esta guía usando
 
 Las traducciones de la guía están disponibles en los siguientes idiomas:
 
-* [Ingles] (https://github.com/bbatsov/rails-style-guide/blob/master/README.md)
-* [Chino Simplificado] (https://github.com/JuanitoFatas/rails-style-guide/blob/master/README-zhCN.md)
-* [Chino tradicional] (https://github.com/JuanitoFatas/rails-style-guide/blob/master/README-zhTW.md)
-* [Japonés] (https://github.com/satour/rails-style-guide/blob/master/README-jaJA.md)
-* [Ruso] (https://github.com/arbox/rails-style-guide/blob/master/README-ruRU.md)
-* [Turco] (https://github.com/tolgaavci/rails-style-guide/blob/master/README-trTR.md)
-* [Coreano] (https://github.com/pureugong/rails-style-guide/blob/master/README-koKR.md)
-* [Vietnamita] (https://github.com/CQBinh/rails-style-guide/blob/master/README-viVN.md)
+* [Ingles](https://github.com/bbatsov/rails-style-guide/blob/master/README.md)
+* [Chino Simplificado](https://github.com/JuanitoFatas/rails-style-guide/blob/master/README-zhCN.md)
+* [Chino tradicional](https://github.com/JuanitoFatas/rails-style-guide/blob/master/README-zhTW.md)
+* [Japonés](https://github.com/satour/rails-style-guide/blob/master/README-jaJA.md)
+* [Ruso](https://github.com/arbox/rails-style-guide/blob/master/README-ruRU.md)
+* [Turco](https://github.com/tolgaavci/rails-style-guide/blob/master/README-trTR.md)
+* [Coreano](https://github.com/pureugong/rails-style-guide/blob/master/README-koKR.md)
+* [Vietnamita](https://github.com/CQBinh/rails-style-guide/blob/master/README-viVN.md)
 
 # La guía de estilos de ruby on rails
 
@@ -33,22 +33,22 @@ de los miembros de la comunidad de Rails y de varios prestigiosos recursos de ra
 
 ## Tabla de contenido
 
-* [Configuración] (# configuración)
-* [Enrutamiento] (# enrutamiento)
-* [Controladores] (# controladores)
-   * [Representación] (# representación)
-* [Modelos] (# modelos)
-   * [ActiveRecord] (# activerecord)
-   * [Consultas ActiveRecord] (# activerecord-consultas)
-* [Migraciones] (# migraciones)
-* [Vistas] (# vistas)
-* [Internacionalización] (# internacionalización)
-* [Activos] (# activos)
-* [Anuncios publicitarios] (# anuncios publicitarios)
-* [Extensiones principales de soporte activo] (# active-support-core-extensions)
+* [Configuración](# configuración)
+* [Enrutamiento](# enrutamiento)
+* [Controladores](# controladores)
+   * [Representación](# representación)
+* [Modelos](# modelos)
+   * [ActiveRecord](# activerecord)
+   * [Consultas ActiveRecord](# activerecord-consultas)
+* [Migraciones](# migraciones)
+* [Vistas](# vistas)
+* [Internacionalización](# internacionalización)
+* [Activos](# activos)
+* [Anuncios publicitarios](# anuncios publicitarios)
+* [Extensiones principales de soporte activo](# active-support-core-extensions)
 * [Tiempo tiempo)
-* [Bundler] (# bundler)
-* [Gestión de procesos] (# procesos de gestión)
+* [Bundler](# bundler)
+* [Gestión de procesos](# procesos de gestión)
 
 ## Configuración
 

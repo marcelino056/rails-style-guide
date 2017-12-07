@@ -33,22 +33,22 @@ de los miembros de la comunidad de Rails y de varios prestigiosos recursos de ra
 
 ## Tabla de contenido
 
-* [Configuración](# configuración)
-* [Enrutamiento](# enrutamiento)
-* [Controladores](# controladores)
-   * [Representación](# representación)
-* [Modelos](# modelos)
-   * [ActiveRecord](# activerecord)
-   * [Consultas ActiveRecord](# activerecord-consultas)
-* [Migraciones](# migraciones)
-* [Vistas](# vistas)
-* [Internacionalización](# internacionalización)
-* [Activos](# activos)
-* [Anuncios publicitarios](# anuncios publicitarios)
-* [Extensiones principales de soporte activo](# active-support-core-extensions)
+* [Configuración](#configuración)
+* [Enrutamiento](#enrutamiento)
+* [Controladores](#controladores)
+   * [Representación](#representación)
+* [Modelos](#modelos)
+   * [ActiveRecord](#activerecord)
+   * [Consultas ActiveRecord](#activerecord-consultas)
+* [Migraciones](#migraciones)
+* [Vistas](#vistas)
+* [Internacionalización](#internacionalización)
+* [Activos](#activos)
+* [Anuncios publicitarios](#anuncios publicitarios)
+* [Extensiones principales de soporte activo](#active-support-core-extensions)
 * [Tiempo tiempo)
-* [Bundler](# bundler)
-* [Gestión de procesos](# procesos de gestión)
+* [Bundler](#bundler)
+* [Gestión de procesos](#procesos de gestión)
 
 ## Configuración
 

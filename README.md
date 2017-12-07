@@ -22,7 +22,7 @@ Las traducciones de la guía están disponibles en los siguientes idiomas:
 * [Coreano] (https://github.com/pureugong/rails-style-guide/blob/master/README-koKR.md)
 * [Vietnamita] (https://github.com/CQBinh/rails-style-guide/blob/master/README-viVN.md)
 
-#La guía de estilos de ruby on rails
+# La guía de estilos de ruby on rails
 
 Esta guía de estilo de Rails recomienda las mejores prácticas para que los rails del mundo real los programadores pueden escribir código que pueda ser mantenido por otros programadores de rails del mundo real. Se usa una guía de estilo que refleja el uso del mundo real y una guía de estilo que se aferra a un ideal que ha sido rechazado por la gente se supone que ayuda a que los riesgos no se usen para nada & ndash; no importa que tan bueno es.
 

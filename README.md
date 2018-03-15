@@ -1,4 +1,4 @@
-# Preludio
+﻿# Preludio
 
 > Los modelos de roles son importantes. <br/>
 > - Oficial Alex J. Murphy / RoboCop
@@ -95,3 +95,22 @@ de los miembros de la comunidad de Rails y de varios prestigiosos recursos de ra
   ```ruby
   Rails::Application.config_for(:yaml_file)
   ```
+## Cotroladores
+
+* <a name="skinny-controllers"></a>
+  manten los controles flacos - solo deberían recuperar datos para la vista
+   capa y no debe contener ninguna lógica de negocios (toda la lógica de negocios
+   debería residir naturalmente en el modelo).
+<sup>[[link](#skinny-controllers)]</sup>
+
+* <a name="one-method"></a>
+ 
+Cada accion de controlador deberia (idealmente) invocar solo un metodo invocar solo un método que no sea un
+   descubrimiento inicial o nuevo.	
+<sup>[[link](#one-method)]</sup>
+
+* <a name="shared-instance-variables"></a>
+
+	Comparte no mas de dos variables de instancia entre un controlador y una vista.
+<sup>[[link](#shared-instance-variables)]</sup>
+

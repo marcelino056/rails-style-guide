@@ -95,3 +95,43 @@ de los miembros de la comunidad de Rails y de varios prestigiosos recursos de ra
   ```ruby
   Rails::Application.config_for(:yaml_file)
   ```
+  
+  
+  ## Modelos
+
+* <a name="model-classes"></a>
+Introduzca las clases de modelo non-ActiveRecord libremente.
+<sup>[[link](#model-classes)]</sup>
+
+* <a name="meaningful-model-names"></a>
+  Nombra los modelos con nombres significativos(pero cortos sin abreviaturas).
+<sup>[[link](#meaningful-model-names)]</sup>
+
+* <a name="activeattr-gem"></a>
+  Si necesita objetos de modelo que admitan el comportamiento de ActiveRecord (como la validación) sin la funcionalidad de la base de datos ActiveRecord use la
+  [ActiveAttr](https://github.com/cgriego/active_attr) gema.
+<sup>[[link](#activeattr-gem)]</sup>
+
+  ```ruby
+  class Message
+    include ActiveAttr::Model
+
+    attribute :name
+    attribute :email
+    attribute :content
+    attribute :priority
+
+    attr_accessible :name, :email, :content
+
+    validates :name, presence: true
+    validates :email, format: { with: /\A[-a-z0-9_+\.]+\@([-a-z0-9]+\.)+[a-z0-9]{2,4}\z/i }
+    validates :content, length: { maximum: 500 }
+  end
+  ```
+
+  Para un ejemplo más complejo, refiérase a
+  [RailsCast on the subject](http://railscasts.com/episodes/326-activeattr).
+
+* <a name="model-business-logic"></a>
+  A menos que tenga algún significado en el dominio comercial, no coloque métodos en su modelo que acaba de formatear sus datos (como el código que genera HTML). Es muy probable que estoss métodos vayan a ser invocados únicamentes desde la capa de visualización, por lo que su lugar está en los ayudantes. Matenga sus modelos solo para lógica comercial y persitencia de datos.
+<sup>[[link](#model-business-logic)]</sup>
